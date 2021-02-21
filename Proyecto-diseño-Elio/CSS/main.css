@@ -1,0 +1,229 @@
+/* Aqui encontramos todos los cambios de manera no especifica */
+body{
+	margin: 0px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+h1{
+	font-family: "open sans";
+	-webkit-text-stroke: 0.5px black;
+	color:#FC9F02
+}
+
+h2{
+	-webkit-text-stroke: 0.5px black;
+	color: #EEBB19;
+	margin: 0px 10px 0px 10px;
+	text-align: center;
+}
+
+h3{
+	color: #FC9F02;
+	-webkit-text-stroke: 0.2px black;
+}
+
+nav div a {
+	-webkit-text-stroke: 0.5px black;
+	color:#FC9F02;
+}
+
+button{
+	text-decoration: none;
+	background-color: #FC9F02 ;
+}
+
+p{
+	color:#FC9F02;
+	-webkit-text-stroke: 0.2px black;
+}
+
+/* Creamos lo que formara parte de todas las paginas de la web (cabezeras y footer) */
+/*Cabezera*/
+.cabecera {
+	background: #EEBB19; 
+	height: 88px;
+	font-family: Arial;
+	font-size: 30px;
+	display: flex ;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cabeza ul li{
+	display: inline-flex;
+	margin: 10px;
+	padding: 0px;
+}
+
+
+header .imagen{
+	justify-content: center;
+}
+
+.logo {
+	justify-content: center;
+	width: 123px;
+	height: 69px;
+	right: 100px;	
+}
+
+header .buscar{
+justify-content: flex-end;	
+margin: 0px 30px 0px 10px;
+}
+
+/*pie de página*/
+footer{
+	background: #EEBB19;
+	height: 88px;
+	font-family: Arial;
+	font-size: 10px;
+	display: flex ;
+	justify-content: space-around;
+	align-items: center;
+}
+
+footer nav{
+	display: inline-flex;
+}
+
+footer .icon{
+	display: flex;
+}
+
+footer .col{
+	display: flex;
+}
+
+.insta{
+	margin: 0px 0px 0px 20px;
+}
+
+/* Creamos la web principal */
+main{
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+
+}
+.principal {
+	display: flex;
+}
+
+.principal div{
+
+	flex-wrap: wrap;
+	align-content: flex-end;
+	justify-content: center;
+	text-align: center;
+	font-size: 35px;
+	display: flex;
+	margin: 0px 50px 50px 0px;
+}
+
+.izq{
+	width: 616px;
+	-webkit-text-stroke: 0.5px black;
+	color:#FC9F02;
+	background-image: url("../img/Majo-no-Tabitabi-banner-3.png");
+}
+
+.cent{
+	-webkit-text-stroke: 0.5px black;
+	color:#FC9F02;
+	width: 350px;
+	height: 414px;
+	background-image: url("../img/__majima_makoto_ikebukuro_west_gate_park_drawn_by_sigerufn__bb45a32ee44cbd5943d2b996959e796a.png");
+}
+
+.der{
+	flex-wrap: wrap;
+	align-content: flex-end;
+	justify-content: center;
+	text-align: center;
+	width: 350px;
+	height: 414px;
+	background-image: url("../img/EixkOA0WkAIMl2d.png");
+}
+
+
+/*Creamos la página del formulario*/
+
+.formulario div{
+text-align: center;
+font-size: 30px;
+}
+
+.formulario{
+	width: 1500px;
+	display: flex ;
+	justify-content: space-around;
+}
+li{
+	list-style-type: none;
+}
+
+
+
+/*Creamos la pagina de presentación del artista*/
+
+.artista{
+	flex-direction: row ;
+}
+
+.dos {
+	margin: 20px 0px 20px 0px;
+	width: 100px;
+}
+
+.dibu{
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.artista .dibu img{
+	width: 350px;
+	margin: 20px;
+}
+
+.dos{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contactos{
+	display: flex;
+	align-items: center;
+
+
+}
+
+.perfil{
+	width: 200px;
+	border-radius: 100px;
+	border:4px solid #FC9F02;
+}
+
+
+.artista p{
+	color: #FC9F02;
+	-webkit-text-stroke: 0.2px black;
+	font-size: 30px;
+}
+
+.contacto{
+	width: 60px;
+}
+
+.contactoi{
+	width: 110px;
+}
+
