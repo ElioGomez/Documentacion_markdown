@@ -12,6 +12,7 @@ Nuestro rincón del anime es un proyecto para la asignatura de diseño de interf
 - Blog
 
 ###Inicio
+
 Pagina principal de mi pagina web donde podra ver una pequeña presentación (***Aquí podrás leer y disfrutar de una gran variedad de contenidos relacionado con el anime, desde noticias regulares hasta fan arts y obras de pequeños artistas***) junto con tres imágenes que son enlaces a distintas entradas de la web (***Anime de la semana, Personaje de la semana, Artista de la semana***)
 
 
